@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <path
+        android:fillColor="#AAAAAA"
+        android:pathData="M 90 10 H 10 C 4.5 10 0 14.5 0 20 v 60 c 0 5.5 4.5 10 10 10 h 80 c 5.5 0 10 -4.5
+10 -10 V 20 C 100 14.5 95.5 10 90 10 Z M 90 80 H 10 V 20 h 80 V 80 Z M 45 60.5 H
+20 v 9 h 25 V 60.5 Z M 45 45.5 H 20 v 9 h 25 V 45.5 Z M 45 30.5 H 20 v 9 h 25 V
+30.5 Z M 79.5 62.5 c 0 0 -8.5 -2.224 -8.5 -6.589 C 71 51.75 76.5 50 76.5 41.5 c
+0 -6.903 -2.098 -11 -9 -11 c -6.904 0 -9 4.097 -9 11 c 0 8.5 5.498 10.25 5.498
+14.411 c 0 4.365 -8.498 6.589 -8.498 6.589 c -0.5 0 -0.5 7 -0.5 7 h 25 C 80 69.5
+80 62.5 79.5 62.5 Z" />
+</vector>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "533377632584",
+    "firebase_url": "https://cashintime-eed3d.firebaseio.com",
+    "project_id": "cashintime-eed3d",
+    "storage_bucket": "cashintime-eed3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533377632584:android:c0749842681fdaab",
+        "android_client_info": {
+          "package_name": "friendlyitsolution.com.cit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533377632584-64vk348oto1eauflkpm6pl0co2geba09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "friendlyitsolution.com.cit",
+            "certificate_hash": "7b6f12effff0f0393c77106e475656c3eeb7628d"
+          }
+        },
+        {
+          "client_id": "533377632584-nj73751ihi6v056cla9usbas7orf94vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl1XYNJQOrHbEzVnt4jH0tkjOHVLE26cg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533377632584-nj73751ihi6v056cla9usbas7orf94vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

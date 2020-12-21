@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Detailpage"
+    tools:showIn="@layout/activity_detailpage">
+
+
+
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:civ_border_width="1dp"
+            android:src="@drawable/user_icon"
+
+            app:civ_circle_background_color="@color/white"
+            app:civ_border_color="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/call"
+            android:src="@drawable/call"
+            android:tint="@color/md_green_700"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/name"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/img"
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:text="Meet Patel"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_toRightOf="@+id/img"
+            android:id="@+id/date"
+
+            android:text="30 September,18"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:id="@+id/address"
+
+            android:layout_toLeftOf="@+id/rs"
+            android:text="..."
+            android:layout_below="@+id/date"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rs"
+            android:layout_marginRight="5dp"
+            android:text="..."
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/dd"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dd"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="status"
+            android:layout_alignParentRight="true"
+
+
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="9dp"/>
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/address"
+
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:text="Accept"
+            android:id="@+id/btn"
+            android:background="@drawable/border_orange6"
+            />
+
+
+
+
+</RelativeLayout>

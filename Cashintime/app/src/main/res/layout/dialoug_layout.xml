@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selection"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt"
+        />
+
+    <RadioGroup
+        android:layout_below="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/grp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GIVER"
+            android:checked="true"
+            android:id="@+id/giver"
+            android:layout_marginRight="10dp"/>
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/taker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAKER"/>
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:gravity="center"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grp"
+        android:id="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amt"
+        android:hint="Enter Amount"
+        />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+
+            android:background="@color/black_off">
+
+        </View>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate"
+            android:hint="Rate %"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Off"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/btnoff"
+            android:background="@drawable/butnclick_primery"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:id="@+id/btnset"
+            android:background="@drawable/butnclick_primery"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

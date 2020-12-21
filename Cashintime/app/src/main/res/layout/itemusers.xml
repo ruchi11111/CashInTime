@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:id="@+id/rel"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img"
+                android:layout_marginLeft="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:civ_border_width="1dp"
+                android:src="@drawable/user_icon"
+
+                app:civ_circle_background_color="@color/white"
+                app:civ_border_color="@color/colorPrimaryDark"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/img"
+                android:id="@+id/name"
+                android:textStyle="bold"
+                android:text="Meet Patel"
+                android:layout_marginLeft="10dp"
+                android:gravity="bottom"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_toRightOf="@+id/img"
+                android:id="@+id/date"
+
+                android:text="30 September,18"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:id="@+id/address"
+        android:layout_toLeftOf="@+id/rs"
+
+        android:text="..."
+        android:layout_below="@+id/date"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_toRightOf="@+id/img"
+                android:id="@+id/time"
+                android:visibility="gone"
+                android:text="30/09/2018"
+                android:layout_below="@+id/date"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="9dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rs"
+                android:text="..."
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_below="@+id/dd"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dd"
+                android:text="status"
+                android:layout_alignParentRight="true"
+
+
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="9dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_grey_200"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"></View>
+
+        </RelativeLayout>
+
+
+
